@@ -1,0 +1,41 @@
+function Callback(answer)
+setclipboard("https://discord.gg/6rjB9UfNKf")
+end
+local ha1002 = Instance.new("BindableFunction")
+ha1002.OnInvoke = Callback
+game:GetService("StarterGui"):SetCore("SendNotification", {
+Title = "Made by Digitality#9363";
+Text = "discord.gg/6rjB9UfNKf";
+Button1 = "Copy Invite";
+Callback = ha1002
+})
+for i,v in pairs(Player.Backpack:GetChildren(),Character:GetChildren()) do
+if v:IsA("Tool") then
+v:Destroy()
+end
+end
+for _ = 1, PlrTab do
+game:GetService("ReplicatedStorage").RemoteFunctions.PurchaseTemporaryItem:InvokeServer("School Cafeteria","Bloxiade")
+end
+repeat wait() until #Player.Backpack:GetChildren() == PlrTab
+if not Character or not Humanoid or not RootPart then return end
+local Old = RootPart.CFrame
+
+RootPart.Velocity = Vector3.new()
+RootPart.CFrame = Old
+local NewHumanoid = Humanoid:Clone()
+Humanoid:Destroy()
+NewHumanoid.Parent = Character
+
+NewHumanoid:UnequipTools()
+repeat game:GetService("RunService").Heartbeat:wait() until not Character:FindFirstChildWhichIsA("Tool")
+for _,x in next, Player.Backpack:GetChildren() do
+if x:IsA("Tool") then
+x.Parent = Character
+print(Players:GetPlayers()[_].Character.HumanoidRootPart:IsGrounded())
+if Players:GetPlayers()[_] and Players:GetPlayers()[_].Character and Players:GetPlayers()[_].Character:FindFirstChildOfClass("Humanoid") and not Players:GetPlayers()[_].Character.HumanoidRootPart:IsGrounded() and Players:GetPlayers()[_].Character:FindFirstChildOfClass("Humanoid").Health > 0 then
+firetouchinterest(x.Handle,Players:GetPlayers()[_].Character.PrimaryPart,0)
+firetouchinterest(x.Handle,Players:GetPlayers()[_].Character.PrimaryPart,1)
+end
+end
+end
