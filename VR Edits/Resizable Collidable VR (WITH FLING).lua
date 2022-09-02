@@ -1,7 +1,7 @@
 --[[ default hats:
-https://www.roblox.com/catalog/2493590711/Knights-of-Redcliff-Paladin-Helmet
-https://www.roblox.com/catalog/2493718915/The-High-Seas-Beatrix-The-Pirate-Queen-Hat
-https://www.roblox.com/catalog/2962661117/Jester-Equinox-Hat
+Head (Not Required): https://www.roblox.com/catalog/2493590711/Knights-of-Redcliff-Paladin-Helmet
+Right Arm: https://www.roblox.com/catalog/2493718915/The-High-Seas-Beatrix-The-Pirate-Queen-Hat
+Left Arm: https://www.roblox.com/catalog/2962661117/Jester-Equinox-Hat
 
 YOU CAN CHANGE THESE HATS IN THE VARIABLES/SETTINGS BELOW (make sure to check their name in your character using dex)
 
