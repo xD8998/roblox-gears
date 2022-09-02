@@ -4,6 +4,8 @@ https://www.roblox.com/catalog/2493718915/The-High-Seas-Beatrix-The-Pirate-Queen
 https://www.roblox.com/catalog/2962661117/Jester-Equinox-Hat
 
 YOU CAN CHANGE THESE HATS ON LINES 136 - 138
+
+USE THE SIDE BUTTONS ON YOUR VR CONTROLLERS TO FLING WITH EACH HAND
 ]]
 
 local velocity = Vector3.new(0,30,0)
