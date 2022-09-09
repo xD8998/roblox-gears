@@ -21,10 +21,10 @@ local velocity = Vector3.new(0, 30, 0)
 local flingvelocity = Vector3.new(50, 0, 50)
 local flingrot = Vector3.new(25e25, 25e25, 25e25)
 local tweentime = 5
-local resize = true
+local resize = false
 local justgrass = false
 local headhat = false
-local samenamearms = false
+local samenamearms = true
 local samearmsname = "Rayo"
 
 local HEADHAT = "MeshPartAccessory"
@@ -212,7 +212,9 @@ if headhat then
 else
     head = c:FindFirstChild("Head")
 end
-head:FindFirstChildOfClass("SpecialMesh"):Destroy()
+if head:FindFirstChildOfClass("SpecialMesh") then
+    head:FindFirstChildOfClass("SpecialMesh"):Destroy()
+end
 local R1down = false
 local L1down = false
 local R2down = false
