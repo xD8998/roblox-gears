@@ -1,4 +1,4 @@
-{
+local Gears = {
     ["Big Bag of Bucks"] = {
         ID = 999864737,
         Name = "DucktalesMoneyBag",
@@ -7025,3 +7025,4 @@
         TextureID = "http://www.roblox.com/asset/?id=86282081"
     }
 }
+return Gears
