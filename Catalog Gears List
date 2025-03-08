@@ -7023,6 +7023,21 @@ local Gears = {
         ID = 91294485,
         Name = "CoolLionCompanion",
         TextureID = "http://www.roblox.com/asset/?id=86282081"
+    },
+    ["Reset Tool"] = {
+        ID = 16201421,
+        Name = "Reset",
+        TextureID = ""
+    },
+    ["Clone Part"] = {
+        ID = 16200402,
+        Name = "Clone Part",
+        TextureID = "rbxasset://Textures/Clone.png"
+    },
+    ["Part Dragger"] = {
+        ID = 16200204,
+        Name = "Part Dragger",
+        TextureID = "rbxasset://Textures/GameTool.png"
     }
 }
 return Gears
